@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'Page1.dart';
 import 'pavlova.dart';
+import 'Edgeinsets.dart';
+import 'axisAlignment.dart';
 
 void main() =>
   runApp(const MyApp());
@@ -16,7 +19,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: false,
         primarySwatch: Colors.deepPurple,
       ),
-      home: Pavlova(),
+      home: AxisAlignment(),
     );
   }
 }
